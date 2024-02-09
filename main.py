@@ -82,6 +82,10 @@ def insert_data(table, data):
 
 
 def generate_report_by_day(tb_packages, tb_travels, day):
+    assert len(tb_packages) > 0, "No packages"
+    assert len(tb_travels) > 0, "No travels"
+    assert day is not None, "Day is required"
+
     report = DAILY_REPORT
     # Search all travls for the given day
     travels = [travel for travel in tb_travels if travel.date == day]

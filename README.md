@@ -16,3 +16,9 @@ Se pide:
 
 + No utilizar ningún framework en la solución (mantener una solución sencilla).
 
+
+
+# Usage:
+- To run the application execute the file main.py with Python 3.* `python3 main.py`
+- To run the test for the application run: `python3 test_main.py`
+- You can also run an interactive console to play with the models and functions with `python3 -i main.py`
